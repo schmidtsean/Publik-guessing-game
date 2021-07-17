@@ -18,7 +18,7 @@ export default class NicaraguaNotes extends Component {
         />
         <Divider hidden />
         <Transition visible={!visible} animation='scale' duration={500}>
-          <Card> Chocolate, Brownsugar, Citris</Card>
+          <Card> Apple, Carmel, Pecan </Card>
         </Transition>
       </div>
     )

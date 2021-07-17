@@ -18,7 +18,7 @@ export default class BeekeeperOrigin extends Component {
         />
         <Divider hidden />
         <Transition visible={!visible} animation='scale' duration={500}>
-          <Card> Brazil, Guatemala, Columbia </Card>
+          <Card> Ethiopia, Honduras </Card>
         </Transition>
       </div>
     )

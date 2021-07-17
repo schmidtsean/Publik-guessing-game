@@ -18,7 +18,7 @@ export default class CentralNotes extends Component {
         />
         <Divider hidden />
         <Transition visible={!visible} animation='scale' duration={500}>
-          <Card> Chocolate, Brownsugar, Citris</Card>
+          <Card> Dark Chocolate, Toffee Peanut, Red Fruits</Card>
         </Transition>
       </div>
     )

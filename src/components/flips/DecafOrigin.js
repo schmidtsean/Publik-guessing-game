@@ -13,12 +13,12 @@ export default class DecafOrigin extends Component {
     return (
       <div>
         <Button
-          content={visible ? 'Show Tasting Origin' : 'Hide Tasting Origin'}
+          content={visible ? 'Show Origin' : 'Hide Origin'}
           onClick={this.toggleVisibility}
         />
         <Divider hidden />
         <Transition visible={!visible} animation='scale' duration={500}>
-          <Card> Chocolate, Brownsugar, Citris</Card>
+          <Card> 100% Columbian EA Decaf</Card>
         </Transition>
       </div>
     )

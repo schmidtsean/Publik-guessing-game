@@ -18,7 +18,7 @@ export default class SumatraNotes extends Component {
         />
         <Divider hidden />
         <Transition visible={!visible} animation='scale' duration={500}>
-          <Card> Chocolate, Brownsugar, Citris</Card>
+          <Card> Herbal, Shredded Wheat, Dates </Card>
         </Transition>
       </div>
     )

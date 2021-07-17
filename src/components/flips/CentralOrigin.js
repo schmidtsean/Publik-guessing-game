@@ -18,7 +18,7 @@ export default class CentralOrigin extends Component {
         />
         <Divider hidden />
         <Transition visible={!visible} animation='scale' duration={500}>
-          <Card> Brazil, Guatemala, Columbia </Card>
+          <Card> Brazil, Columbia, Ethiopia </Card>
         </Transition>
       </div>
     )

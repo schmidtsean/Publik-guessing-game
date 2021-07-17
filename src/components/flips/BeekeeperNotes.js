@@ -18,7 +18,7 @@ export default class BeekeeperNotes extends Component {
         />
         <Divider hidden />
         <Transition visible={!visible} animation='scale' duration={500}>
-          <Card> Chocolate, Brownsugar, Citris</Card>
+          <Card> Berry, Chocolate, Wafer</Card>
         </Transition>
       </div>
     )

@@ -18,7 +18,7 @@ export default class GuatemalaNotes extends Component {
         />
         <Divider hidden />
         <Transition visible={!visible} animation='scale' duration={500}>
-          <Card> Chocolate, Brownsugar, Citris</Card>
+          <Card> Raspberry Compote, Lemon Tea, Cocoa </Card>
         </Transition>
       </div>
     )

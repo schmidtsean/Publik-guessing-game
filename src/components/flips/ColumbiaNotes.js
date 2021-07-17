@@ -18,7 +18,7 @@ export default class ColumbiaNotes extends Component {
         />
         <Divider hidden />
         <Transition visible={!visible} animation='scale' duration={500}>
-          <Card> Chocolate, Brownsugar, Citris</Card>
+          <Card> Peach Cobbler, Citris, Brown Sugar</Card>
         </Transition>
       </div>
     )
