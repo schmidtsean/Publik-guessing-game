@@ -1,5 +1,5 @@
 import React from 'react';
-import Latte from '../src/components/Latte';
+import Latte from './components/CardList';
 
 const App = () => (
   <Latte/>
