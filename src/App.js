@@ -1,10 +1,10 @@
 import React from 'react';
-import Latte from './components/CardList';
+import CardList from './components/CardList';
 import './App.css'
 
 const App = () => (
   <div className='background'>
-    <Latte/>
+    <CardList/>
   </div>
 )
 
