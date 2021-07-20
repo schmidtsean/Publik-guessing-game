@@ -22,7 +22,7 @@ const CardList = () => {
    return (
      <div>
       <Header textAlign='center' style={{width: '100%', fontSize: '50px', fontStyle: 'italic', fontFamily: 'Helvetica'}} > 
-        PUBLIK GUESSING GAME
+        PUBLIK COFFEE 
       </Header>
       
       <Card.Group itemsPerRow={4}>
