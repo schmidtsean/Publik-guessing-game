@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, Header, Divider, Image } from 'semantic-ui-react'
-import { Cards } from './styles'
+import { Card, Header, Divider } from 'semantic-ui-react'
+import { Cards, Head } from './styles'
 import MilesOrigin from './flips/MilesOrigin'
 import MilesNotes from './flips/MilesNotes'
 import BeekeeperOrigin from './flips/BeekeeperOrigin';
@@ -17,17 +17,17 @@ import ColumbiaOrigin from './flips/ColumbiaOrigin';
 import ColumbiaNotes from './flips/ColumbiaNotes';
 import SumatraOrigin from './flips/SumatraOrigin';
 import SumatraNotes from './flips/SumatraNotes';
-import Wood from '../img/Wood.jpg';
 
 const CardList = () => {
    return (
-     <div style={{backgroundImage: `${Wood}`}}>
-       {/* background not working yet */}
-      <Header textAlign='center'> PUBLIK </Header>
+     <div>
+      <Header textAlign='center' style={{width: '100%', fontSize: '50px', fontStyle: 'italic', fontFamily: 'Helvetica'}} > 
+        PUBLIK GUESSING GAME
+      </Header>
       
       <Card.Group itemsPerRow={4}>
         <Cards>
-          <Card.Header><h1>MILES GOODYEAR CABIN</h1>  </Card.Header>
+          <Card.Header><Head>MILES GOODYEAR CABIN</Head>  </Card.Header>
             <Card.Content> 
               <MilesOrigin/> 
               <Divider hidden/>
@@ -35,7 +35,7 @@ const CardList = () => {
             </Card.Content> 
         </Cards>
         <Cards>
-          <Card.Header><h1>BEEKEEPER</h1> <Divider hidden/>  </Card.Header>
+          <Card.Header><Head>BEEKEEPER</Head> <Divider hidden/>  </Card.Header>
             <Card.Content> 
               <BeekeeperOrigin/> 
               <Divider hidden/>
@@ -43,7 +43,7 @@ const CardList = () => {
             </Card.Content> 
         </Cards>
         <Cards>
-          <Card.Header><h1>CENTRAL NINTH ESPRESSO</h1>  </Card.Header>
+          <Card.Header><Head>CENTRAL NINTH ESPRESSO</Head>  </Card.Header>
             <Card.Content> 
               <CentralOrigin/> 
               <Divider hidden/>
@@ -51,7 +51,7 @@ const CardList = () => {
             </Card.Content> 
         </Cards>
         <Cards>
-          <Card.Header><h1>MARMALADE DECAF</h1> <Divider hidden/> </Card.Header>
+          <Card.Header><Head>MARMALADE DECAF</Head> <Divider hidden/> </Card.Header>
             <Card.Content> 
               <DecafOrigin/> 
               <Divider hidden/>
@@ -59,7 +59,7 @@ const CardList = () => {
             </Card.Content> 
         </Cards>
         <Cards>
-          <Card.Header><h1>NICARAGUA FINCA LA BENDICION</h1>  </Card.Header>
+          <Card.Header><Head>NICARAGUA FINCA LA BENDICION</Head>  </Card.Header>
             <Card.Content> 
               <NicaraguaOrigin/> 
               <Divider hidden/>
@@ -67,7 +67,7 @@ const CardList = () => {
             </Card.Content> 
         </Cards>
         <Cards>
-          <Card.Header><h1>GUATEMALA EL ZAPOTAL</h1>  </Card.Header>
+          <Card.Header><Head>GUATEMALA EL ZAPOTAL</Head>  </Card.Header>
             <Card.Content> 
               <GuatemalaOrigin/> 
               <Divider hidden/>
@@ -75,7 +75,7 @@ const CardList = () => {
             </Card.Content> 
         </Cards>
         <Cards>
-          <Card.Header><h1>COLOMBIA FINCA SAN JOSE</h1>  </Card.Header>
+          <Card.Header><Head>COLOMBIA FINCA SAN JOSE</Head>  </Card.Header>
             <Card.Content> 
               <ColumbiaOrigin/> 
               <Divider hidden/>
@@ -83,7 +83,7 @@ const CardList = () => {
             </Card.Content> 
         </Cards>
         <Cards>
-          <Card.Header><h1>SUMATRA BENER MERIAH NANDHELING</h1>  </Card.Header>
+          <Card.Header><Head>SUMATRA BENER MERIAH NANDHELING</Head>  </Card.Header>
             <Card.Content> 
               <SumatraOrigin/> 
               <Divider hidden/>
